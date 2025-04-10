@@ -1,1 +1,4 @@
 # SQL-for-Data-Analysis
+For this task, I worked with an unclean ecommerce dataset and used PostgreSQL with pgAdmin to perform a full SQL-based data analysis. I started by importing the raw CSV file, then created a structured table in the database. One of the first challenges was handling missing values — particularly in the item_weight column, which I addressed by replacing nulls with the average weight based on item type.
+
+After cleaning the data, I wrote a variety of SQL queries to explore it from different angles. This included basic queries using SELECT, WHERE, and ORDER BY, as well as grouped insights with GROUP BY and HAVING. I also created and joined a new customer_feedback table to demonstrate different types of JOINs (INNER, LEFT, and RIGHT), and used subqueries to find items with sales above average. Finally, I created a view to summarize top-selling item types and applied indexing for query optimization.
